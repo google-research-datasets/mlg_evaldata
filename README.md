@@ -1,4 +1,4 @@
-# Evaluation data patches used in geocoding experiments.
+# Evaluation data patches for geocoding
 Reference: https://arxiv.org/abs/2008.09236
 
 ## Data format
@@ -17,4 +17,6 @@ reference to connect back to the original datasets. For evaluation itself we use
 #1 and #3 only.
 
 ## License
-The patches are based on open-sourced evaluation datasets that use GNU General Public License v3.0. So these patches are also released under the same license.
+The patches are released under GNU General Public License v3.0, same as the one 
+used in [open-sourced evaluation datasets](https://github.com/milangritta/Geocoding-with-Map-Vector)
+on which these are based on.
