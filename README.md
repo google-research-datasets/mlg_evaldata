@@ -1,5 +1,4 @@
 # Evaluation data patches for geocoding
-Reference: https://arxiv.org/abs/2008.09236
 
 ## Data format
 There is one patch file for each evaluation dataset used in our experiments.
@@ -20,3 +19,17 @@ reference to connect back to the original datasets. For evaluation itself we use
 The patches are released under GNU General Public License v3.0, same as the one 
 used in [open-sourced evaluation datasets](https://github.com/milangritta/Geocoding-with-Map-Vector)
 on which these are based on.
+
+## Reference
+The dataset is associated with the paper on
+[Spatial Language Representation with Multi-Level Geocoding](https://arxiv.org/abs/2008.09236)
+
+If you use these data fixes, please cite:
+```
+@misc{mlg_geocoding,
+      title={Spatial Language Representation with Multi-Level Geocoding}, 
+      author={Sayali Kulkarni and Shailee Jain and Mohammad Javad Hosseini and Jason Baldridge and Eugene Ie and Li Zhang},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
